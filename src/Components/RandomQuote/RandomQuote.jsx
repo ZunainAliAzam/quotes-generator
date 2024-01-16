@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./RandomQuote.css";
-import { BsTwitter } from "react-icons/bs";
+import twitter_icon from "../Assets/x.png";
+import refresh_icon from "../Assets/refresh.png";
 
 const RandomQuote = () => {
   const [quote, setQuote] = useState({
@@ -14,8 +15,9 @@ const RandomQuote = () => {
       <div className="bottom">
         <div className="author">{quote.Author}</div>
         <div className="icons">
-            <BsTwitter />
-          <img src="" alt="" />
+          <img src={refresh_icon} alt="xrefresh icon" />
+
+          <img src={twitter_icon} alt="x icon" />
         </div>
       </div>
     </div>
