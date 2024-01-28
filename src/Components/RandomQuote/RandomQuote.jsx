@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./RandomQuote.css";
+import "./MediaQueries.css";
 import twitter_icon from "../Assets/x.png";
 import refresh_icon from "../Assets/refresh.png";
 
